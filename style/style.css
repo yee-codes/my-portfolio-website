@@ -85,10 +85,12 @@ div {
 
 h1 {
     margin-bottom: 5px;
+    text-align: center;
 }
 
 p {
     margin-top: 5px;
+    text-align: center;
 }
 
 .nav-pic {
@@ -115,4 +117,8 @@ a {
 
 body {
     font-family: Roboto, sans-serif;
+}
+
+.sub-nav {
+    font-size: 11px;
 }
