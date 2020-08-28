@@ -78,13 +78,13 @@ div {
     margin-right: auto;
 }
 
-.header {
+.center-pic {
     margin-top: 30px;
     text-align: center;
 }
 
 h1 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ ul {
 
 li {
     display: inline;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 a {
@@ -116,9 +116,63 @@ a {
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
-.sub-nav {
+.second-nav {
     font-size: 11px;
+}
+
+
+a:hover {
+    background-color: cornsilk;
+}
+
+
+.f-container {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+}
+
+.footerp {
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.icons-container, .contact-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-list {
+    margin-bottom: 20px;
+}
+
+.blog-pic {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 10px;
+}
+
+.publish-date {
+    font-size: 10px;
 }
