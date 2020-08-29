@@ -33,6 +33,7 @@ header {
     bottom: 0;
     width: 100%;
     background-color: #0099CC;
+    color: white;
 }
 
 p {
@@ -99,7 +100,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: #003399;
+    background-color:white;
     top: 0;
     transition: all ease-in-out 350ms;
 }
@@ -188,4 +189,47 @@ nav a:visited {
 
 figcaption p {
     margin: 2px auto;
+}
+
+
+@keyframes animation-one {
+    from {background-color: lightblue;}
+    to {background-color: #0099CC;}
+}
+
+.nav-container {
+    background-color: #0099CC;
+    animation-name: animation-one;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.animated {
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.animated a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 500ms;
+}
+
+.animated a:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    /* right: -30px; */
+    transition: 500ms;
+}
+
+.animated:hover a {
+    padding-top: 30px;
+}
+
+animated:hover a:after {
+    opacity: 1;
+    right: 0;
 }
