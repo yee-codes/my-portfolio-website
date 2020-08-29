@@ -8,14 +8,14 @@ header {
     background-color: #0099CC;
 }
 
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+}
 .nav-container {
     width: 100%;
     margin: 0 auto;
-}
-
-.center-pic {
-    margin-top: 30px;
-    text-align: center;
 }
 
 #profile-pic {
@@ -36,10 +36,6 @@ header {
     color: white;
 }
 
-p {
-    text-align: center;
-}
-
 .footer p {
     margin-top: 0;
     margin-bottom: 0;
@@ -47,7 +43,7 @@ p {
     font-weight: bold;
 }
 
-h1, h4 {
+h1, h4, p {
     text-align: center;
 }
 
@@ -59,40 +55,6 @@ h1, h4 {
 
 .icons-container p {
     font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-.nav-pic {
-    border-radius: 50%;
-}
-
-
-
-
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px;
-}
-
-
-
-.second-nav {
-    font-size: 11px;
-}
-
-
-nav a:hover {
-    background-color: ;
 }
 
 nav a::before {
@@ -109,20 +71,6 @@ nav a:hover::before {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-.icon-list {
-    margin-bottom: 20px;
-}
-
 .center-pic {
     max-width: 100%;
     height: auto;
@@ -131,16 +79,8 @@ nav a:hover::before {
     margin-right: auto;
     width: 50%;
     margin-top: 20px;
-}
-
-.caption {
     text-align: center;
-    font-size: 10px;
 }
-
-
-
-
 
  nav li {
     font-size: 18px;
@@ -150,10 +90,6 @@ nav a:hover::before {
     display: inline-block;
     position: relative;
 }
-
-
-
-
 
 nav ul {
     margin: 0;
@@ -191,45 +127,18 @@ figcaption p {
     margin: 2px auto;
 }
 
-
-@keyframes animation-one {
+@keyframes navbar-animation {
     from {background-color: lightblue;}
     to {background-color: #0099CC;}
 }
 
 .nav-container {
     background-color: #0099CC;
-    animation-name: animation-one;
+    animation-name: navbar-animation;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 
-.animated {
-    transition: all 500ms;
-    cursor: pointer;
-}
-
-.animated a {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 500ms;
-}
-
-.animated a:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    /* right: -30px; */
-    transition: 500ms;
-}
-
-.animated:hover a {
-    padding-top: 30px;
-}
-
-animated:hover a:after {
-    opacity: 1;
-    right: 0;
+a:hover {
+    transform: translate(0, 10px);
 }
