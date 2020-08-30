@@ -13,6 +13,7 @@ a {
     display: inline-block;
     padding: 8px;
 }
+
 .nav-container {
     width: 100%;
     margin: 0 auto;
@@ -71,22 +72,10 @@ nav a:hover::before {
     width: 100%;
 }
 
-.center-pic {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 20px;
-    text-align: center;
-}
-
  nav li {
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
-    color: #003399;
     display: inline-block;
     position: relative;
 }
@@ -125,18 +114,6 @@ nav a:visited {
 
 figcaption p {
     margin: 2px auto;
-}
-
-@keyframes navbar-animation {
-    from {background-color: lightblue;}
-    to {background-color: #0099CC;}
-}
-
-.nav-container {
-    background-color: #0099CC;
-    animation-name: navbar-animation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
 }
 
 a:hover {
