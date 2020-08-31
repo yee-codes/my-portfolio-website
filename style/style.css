@@ -1,12 +1,22 @@
+/* Used body selector to style text font across all HTML files/pages;
+used a margin of 0 to ensure there isn't any whitespace around the body element
+when a browser displays the page. All pages will have the same background colour. */
+
 body {
     font-family: Montserrat, sans-serif;
     margin: 0;
     background-color: #66CCFF;
 }
 
+/* A different background colour is used to style the header which consists of the 
+navigation menu on top of all pages. */
+
 header {
     background-color: #0099CC;
 }
+
+/* The rules below are used to style the navigation menu which remove the bullet points,
+move the different links onto the same line and give the element a padding of eight px. */
 
 a {
     text-decoration: none;
@@ -14,10 +24,15 @@ a {
     padding: 8px;
 }
 
+/* Centering the navigation menu. */
+
 .nav-container {
     width: 100%;
     margin: 0 auto;
 }
+
+/* Centering the profile photo on the homepage with a round border and a fixed height and width
+of 200px. */
 
 #profile-pic {
     border-radius: 50%;
@@ -28,6 +43,8 @@ a {
     height: 200px;
 }
 
+/* Ensuring the footer is fixed and centered to the bottom of the page with a different background colour. */
+
 .footer {
     text-align: center;
     position: fixed;
@@ -37,6 +54,8 @@ a {
     color: white;
 }
 
+/* Styling the text inside the footer element to be bolder and a smaller font size. */
+
 .footer p {
     margin-top: 0;
     margin-bottom: 0;
@@ -44,26 +63,40 @@ a {
     font-weight: bold;
 }
 
+/* Center the headers and paragraphs to align with the common theme of the website. */
+
 h1, h4, p {
     text-align: center;
 }
+
+/* Enlarging the main header font size. */
 
 h1 {
     font-size: 20px;
 }
 
+/* Bigger font size for all paragraphs for better readability. */
+
 p {
     font-size: 18px;
 }
+
+/* Apply Flexbox to ensure all images/icons are displayed properly and visible on
+different screen sizes. */
+
 .icons-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Give the icons label a heavier font weight. */
+
 .icons-container p {
     font-weight: bold;
 }
+
+/* Add some hover effects to the links. */
 
 nav a::before {
     content: '';
@@ -79,6 +112,9 @@ nav a:hover::before {
     width: 100%;
 }
 
+/* Style for the navigation menu: bigger font size, bolder font, all uppercase and all the li elements
+display on the same line. Position property is there to ensure the above hover effect works. */
+
  nav li {
     font-size: 22px;
     font-weight: 900;
@@ -87,12 +123,16 @@ nav a:hover::before {
     position: relative;
 }
 
+/* Center the navigation menu. */
+
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
+
+/* Styles for the attribute section for authors of icons, use Flexbox to display and center the links. */
 
 aside ul {
     list-style: none;
@@ -102,14 +142,20 @@ aside ul {
     justify-content: center;
 }
 
+/* Bigger font for hyperlink in the navigation menu and a different text colour. */
+
 nav a {
     font-size: 22px;
     color: #003399;
 }
 
+/* A lighter colour to shows that a link has been clicked/visited. */
+
 nav a:visited {
     color: #CCFFCC;
 }
+
+/* Center all images to align with the common theme of the website. */
 
 .project-pic, .blog-pic {
     width: 80%;
@@ -119,16 +165,14 @@ nav a:visited {
     margin-right: auto;
 }
 
+/* Style the image caption to be closer to the image and centered. */
+
 figcaption p {
     margin: 2px auto;
 }
 
+/* CSS built-in effect, a link will move downward by ten pixels when hovered to. */
+
 a:hover {
     transform: translate(0, 10px);
 }
-
-/* Media Queries Breakpoints - 1280, 1024, 768, 480
-    more - 1024     - desktop
-    1024 - 768      - tablet (landscape)
-    768  - 400      - tablet
-    480  - less     - phone */
