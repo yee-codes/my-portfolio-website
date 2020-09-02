@@ -169,3 +169,10 @@ figcaption p {
 a:hover {
     transform: translate(0, 10px);
 }
+
+/* Limit the size of images rendered on the projects page. */
+
+.project-pic {
+    max-width: 400px;
+    max-height: 400px;
+}
