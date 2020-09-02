@@ -1,6 +1,4 @@
-/* Used body selector to style text font across all HTML files/pages;
-used a margin of 0 to ensure there isn't any whitespace around the body element
-when a browser displays the page. All pages will have the same background colour. */
+/* Style the font type and background colour; 0 margin to prevent any whitespace between browser and body. */
 
 body {
     font-family: Montserrat, sans-serif;
@@ -8,15 +6,13 @@ body {
     background-color: #66CCFF;
 }
 
-/* A different background colour is used to style the header which consists of the 
-navigation menu on top of all pages. */
+/* Style navigation bar with a different background colour. */
 
 header {
     background-color: #0099CC;
 }
 
-/* The rules below are used to style the navigation menu which remove the bullet points,
-move the different links onto the same line and give the element a padding of eight px. */
+/* Eliminate the underline of all a tags; change the display property to inline-block; give the a tags a bigger padding. */
 
 a {
     text-decoration: none;
@@ -24,15 +20,14 @@ a {
     padding: 8px;
 }
 
-/* Centering the navigation menu. */
+/* Center the navbar and give the div a width of 100%. */
 
 .nav-container {
     width: 100%;
     margin: 0 auto;
 }
 
-/* Centering the profile photo on the homepage with a round border and a fixed height and width
-of 200px. */
+/* Center the homepage image; give the image a fixed size and a round border. */
 
 #profile-pic {
     border-radius: 50%;
@@ -43,7 +38,7 @@ of 200px. */
     height: 200px;
 }
 
-/* Ensuring the footer is fixed and centered to the bottom of the page with a different background colour. */
+/* Fix and center the footer div to the bottom of the page; different background colour and 100% width. */
 
 .footer {
     text-align: center;
@@ -54,7 +49,7 @@ of 200px. */
     color: white;
 }
 
-/* Styling the text inside the footer element to be bolder and a smaller font size. */
+/* Smaller font size for content of the footer and a bold font-weight. */
 
 .footer p {
     margin-top: 0;
@@ -63,13 +58,13 @@ of 200px. */
     font-weight: bold;
 }
 
-/* Center the headers and paragraphs to align with the common theme of the website. */
+/* Center the headers and paragraphs to align with the other elements. */
 
 h1, h4, p {
     text-align: center;
 }
 
-/* Enlarging the main header font size. */
+/* Bigger font size for main header to caption website users' attention. */
 
 h1 {
     font-size: 20px;
@@ -81,8 +76,7 @@ p {
     font-size: 18px;
 }
 
-/* Apply Flexbox to ensure all images/icons are displayed properly and visible on
-different screen sizes. */
+/* Flexbox (wrap) to render icons properly on different screen sizes. */
 
 .icons-container {
     display: flex;
@@ -90,13 +84,13 @@ different screen sizes. */
     justify-content: center;
 }
 
-/* Give the icons label a heavier font weight. */
+/* Bold image caption. */
 
 .icons-container p {
     font-weight: bold;
 }
 
-/* Add some hover effects to the links. */
+/* Hover effects for all hyperlinks. */
 
 nav a::before {
     content: '';
@@ -112,8 +106,7 @@ nav a:hover::before {
     width: 100%;
 }
 
-/* Style for the navigation menu: bigger font size, bolder font, all uppercase and all the li elements
-display on the same line. Position property is there to ensure the above hover effect works. */
+/* Styles for navbar to emphasise the important of this component. */
 
  nav li {
     font-size: 22px;
@@ -123,7 +116,7 @@ display on the same line. Position property is there to ensure the above hover e
     position: relative;
 }
 
-/* Center the navigation menu. */
+/* Center the navbar. */
 
 nav ul {
     margin: 0;
@@ -142,14 +135,14 @@ aside ul {
     justify-content: center;
 }
 
-/* Bigger font for hyperlink in the navigation menu and a different text colour. */
+/* Bigger font for hyperlinks in the navigation menu and a different text colour. */
 
 nav a {
     font-size: 22px;
     color: #003399;
 }
 
-/* A lighter colour to shows that a link has been clicked/visited. */
+/* A lighter colour to show that a link has been clicked/visited. */
 
 nav a:visited {
     color: #CCFFCC;
