@@ -1,3 +1,27 @@
+commit 9071111773bc042c9a6adf79a9d9965dc5583c32
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 16:00:36 2020 +1000
+
+    trying a new sri hash
+
+commit c02279ecf1859af1642c0859c4b939746e88e9a2
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 15:01:38 2020 +1000
+
+    implementing sri fix
+
+commit bfde538d013d40c9f2575c529c326e383877fc55
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 13:43:34 2020 +1000
+
+    fixing sri hashes
+
+commit 2f890cebfd9f38daea477b34124671f22c9eb99a
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 13:30:39 2020 +1000
+
+    fixing sri hash issue
+
 commit d1ca274349665f44c4bd2c15983244a89a1f0eef
 Author: Yee <shaoyee.ng@gmail.com>
 Date:   Thu Sep 3 12:48:25 2020 +1000
