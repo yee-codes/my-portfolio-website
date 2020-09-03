@@ -1,0 +1,155 @@
+commit d1ca274349665f44c4bd2c15983244a89a1f0eef
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 12:48:25 2020 +1000
+
+    update multiple sri hashes
+
+commit c86dbeabf0bc1e801f9ad570a85c23c703b12d22
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 12:30:09 2020 +1000
+
+    update SRI hash
+
+commit f80d2da98b364cca091b66053ac621f40d4f9d5c
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 09:52:14 2020 +1000
+
+    resize images
+
+commit bd69d0fe46660a0ae3721f852b6445bbbd8e5893
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 09:47:48 2020 +1000
+
+    update projects page
+
+commit 4c28fa345223f53b1bf8f3f2a31dbb20534dfb72
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 09:38:47 2020 +1000
+
+    add comments to stylesheet
+
+commit 7142a06c9747198ef0fd463aa09f8c0d9bf9fef5
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Sep 3 09:05:38 2020 +1000
+
+    final check html codes before submitting
+
+commit a3ca88c3dcf226201c1affc37b849a839ba67f40
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Mon Aug 31 21:47:51 2020 +1000
+
+    README.md completed, created a folder for screenshots
+
+commit e0fbefe2f7afddda731c619d77676210f1e153d2
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Mon Aug 31 13:43:48 2020 +1000
+
+    update SRI hash
+
+commit 3fff68dbffb984be6dd09599a16662fb2fcef503
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Mon Aug 31 13:01:40 2020 +1000
+
+    comments added to all files
+
+commit a15d8d67d9d5dfcc09fdbba10db77edfa2bde7da
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sun Aug 30 20:51:27 2020 +1000
+
+    update responsive design on css
+
+commit e2d3022dad5d153c418e0766d2c4ad00bee446dc
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sun Aug 30 10:58:04 2020 +1000
+
+    finalise style.css
+
+commit e2b52248547a0ee063c68346d3b534b136efb393
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sat Aug 29 22:12:44 2020 +1000
+
+    added css animation and effects
+
+commit a33e2c8327541fd20f5ccc74cef7ec59d03772f2
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sat Aug 29 21:36:14 2020 +1000
+
+    trialing css animation and effects
+
+commit dd74be87231373a1539933bb65208a0b03a176aa
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sat Aug 29 19:45:16 2020 +1000
+
+    recommit to reflect semantic html update
+
+commit d56b6de6543a271984220175c492f6539abf1880
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sat Aug 29 19:43:24 2020 +1000
+
+    all html files updated
+
+commit 641d51f0f00e0bdf01555904786d1eea7a8d445b
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Sat Aug 29 09:41:21 2020 +1000
+
+    style navbar on all pages
+
+commit e3ba68a4e893c7a7333a33383af39dca95c591d7
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 14:23:01 2020 +1000
+
+    remove unused html pages and semantic html
+
+commit b70636fdcfde5be2b80bda4a2a78c66885f4ff93
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 13:17:01 2020 +1000
+
+    css styling
+
+commit 529f77915477a86f676b159518595a5998eea1ad
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 10:15:21 2020 +1000
+
+    all pages content updated
+
+commit 3d7b02b1e68474665d9414c02a68c5c355b9ffd4
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 09:36:44 2020 +1000
+
+    blog 5 updated
+
+commit 6c3f6d35978c3ccf9a768074577b0bbec64f7d8a
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 09:12:02 2020 +1000
+
+    updated skills page and added icons to images folder
+
+commit 6345509f300f4ce9ff07e1aa029853cbb363718d
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 08:24:07 2020 +1000
+
+    updated content on about.html
+
+commit a4343e77e4626dca771e4d76ed19747d98605f81
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Fri Aug 28 07:21:47 2020 +1000
+
+    redo index page and style nav bar
+
+commit 138ec97437023c407f843c85dd7863c1d89c25e6
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Aug 27 17:37:19 2020 +1000
+
+    update index page and some css
+
+commit fe69895650ae8a5a6edd19fbca14c1dab943d785
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Aug 27 15:48:27 2020 +1000
+
+    create all html and style files
+
+commit 7cc49575a4b1faad9591d549971617a812a9dc30
+Author: Yee <shaoyee.ng@gmail.com>
+Date:   Thu Aug 27 09:21:15 2020 +1000
+
+    commit before starting to code
